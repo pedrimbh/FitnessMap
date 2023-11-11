@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/item_result_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="20dp"
+            >
+
+            <TextView
+                android:id="@+id/txt_result_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resultado salvo na data:"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt_result_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="20-10-2023"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="15dp"
+            >
+            <TextView
+                android:id="@+id/txt_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resultado"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt_result_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="30.54"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        app:layout_constraintTop_toBottomOf="@id/item_result_container"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
