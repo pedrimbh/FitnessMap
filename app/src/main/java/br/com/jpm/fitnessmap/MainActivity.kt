@@ -39,22 +39,7 @@ class MainActivity : AppCompatActivity() {
                 Color.MAGENTA
             )
         )
-        mainItems.add(
-            MainItem(
-                id = 3,
-                drawableId = R.drawable.ic_laucher_baseline_wb_sunny_24,
-                textStrongId = R.string.label_imc,
-                Color.YELLOW
-            )
-        )
-        mainItems.add(
-            MainItem(
-                id = 4,
-                drawableId = R.drawable.ic_laucher_baseline_wb_sunny_24,
-                textStrongId = R.string.label_imc,
-                Color.BLUE
-            )
-        )
+
 //        usando com interface via activity
 //        override fun onClick(id: Int) {
 //            when (id) {
@@ -100,7 +85,8 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 2 -> {
-                    Log.i("teste", "$id")
+                    val i = Intent(this@MainActivity, TmbActivitty::class.java)
+                    startActivity(i)
                 }
 
                 3 -> {

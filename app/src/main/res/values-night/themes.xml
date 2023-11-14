@@ -3,5 +3,8 @@
     <style name="Base.Theme.FitnessMap" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">#9915C1</item>
+        <item name="colorPrimaryDark">#DBE0DE</item>
+        <item name="colorAccent">#E88888</item>
     </style>
 </resources>

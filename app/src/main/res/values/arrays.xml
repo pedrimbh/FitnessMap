@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tbm_lifestyle">
+        <item>Pouco ou nenhum execício</item>
+        <item>Exercicio leve. 1 a 3 dias por semana</item>
+        <item>Exercicio moderado. 3 a 5 dias por semana</item>
+        <item>Exercicio pesado. 6 a 7 dias por semana</item>
+        <item>Exercicio pesado diariamente. 2x por dia</item>
+    </string-array>
+
+</resources>

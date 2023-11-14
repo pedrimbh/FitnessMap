@@ -1,6 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <style name="Theme.FitnessMap" parent="Base.Theme.FitnessMap">
+  <style name="Theme.FitnessMap" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
     <!-- Transparent system bars for edge-to-edge. -->
+    <item name="colorPrimary">#9915C1</item>
+    <item name="colorPrimaryDark">#DBE0DE</item>
+    <item name="colorAccent">#E88888</item>
     <item name="android:navigationBarColor">@android:color/transparent</item>
     <item name="android:statusBarColor">@android:color/transparent</item>
     <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
